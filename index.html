@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./style.css" />
+  <title>Flatacuties</title>
+</head>
+<body>
+  <h2>Cute Animal List</h2>
+
+  <div id="characterDetails"></div>
+
+  <div class="buttons" id="btns">
+    <button class="cute">Mr. Cute</button>
+    <button class="monkey">Mx. Monkey</button>
+    <button class="zebra">Ms. Zebra</button>
+    <button class="lion">Dr. Lion</button>
+    <button class="panda">Mme. Panda</button>
+  </div>
+
+  <h4>Total Votes: <span id="vote-count">0</span></h4>
+
+  <!-- input votes form  Thie user votes for their animal of choice here-->
+  <form id="votes-form">
+    <input type="text" placeholder="Enter Votes" id="votes" name="votes" />
+    <input type="submit" value="Add Votes" />
+  </form>
+`
+  <button id="reset" class="reset">Reset</button>
+
+  <script src="./script.js"></script>
+</body>
+</html>
